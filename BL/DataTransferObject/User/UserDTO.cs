@@ -8,6 +8,6 @@ namespace NIx_CinemaSite.BL.DataTransferObject.User
 {
     internal class UserDTO
     {
-        //Еще не яснопонятно
+        //Еще не трогаю
     }
 }

@@ -12,4 +12,9 @@
     <ProjectReference Include="..\PL\NIx_CinemaSite.PL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Implementations\" />
+    <Folder Include="Interfaces\Сinematographers\" />
+  </ItemGroup>
+
 </Project>

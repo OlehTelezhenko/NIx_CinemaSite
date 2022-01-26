@@ -1,5 +1,8 @@
 ﻿using AutoMapper;
-using NIx_CinemaSite.BL.Data_Transfer_Object.AbautTheFilm;
+using NIx_CinemaSite.BL.DataTransferObject.AbautTheFilm;
+using NIx_CinemaSite.BL.DataTransferObject.Cinema;
+using NIx_CinemaSite.DAL.Models.AboutTheFilm;
+using NIx_CinemaSite.DAL.Models.Cinema;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +11,15 @@ using System.Threading.Tasks;
 
 namespace NIx_CinemaSite.BL
 {
-    internal class AutoMapper : Profile
+    public class AutoMapper : Profile
     {
-        CreateMap <Actor, ActorDTO>();
+        public AutoMapper()
+        {
+            CreateMap<Actor, ActorDTO>();
+            CreateMap<Film, FilmDTO>();
+            CreateMap<Genre, GenreDTO>();
+            CreateMap<Cinema, CinemaDTO>();
+        }
 
     }
 }

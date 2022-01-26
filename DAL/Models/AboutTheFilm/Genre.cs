@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace WebMyCinema.Models
+namespace NIx_CinemaSite.DAL.Models.AboutTheFilm
 {
     public class Genre
     {

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NIx_CinemaSite.BL.Data_Transfer_Object.AbautTheFilm
+namespace NIx_CinemaSite.BL.DataTransferObject.AbautTheFilm
 {
     internal class ActorDTO
     {
