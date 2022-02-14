@@ -1,0 +1,30 @@
+.navbar .col
+{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+.container .row-cols-4
+{
+    margin-right: 8%;
+}
+.navbar .row-cols-4 :hover
+{
+    color: lightgreen;
+}   
+
+.navbar-brand
+{
+    margin-left: 8%;
+    color: white;
+}
+.navbar-brand:hover
+{
+    color: lightgreen;
+}
+
+.navText
+{
+    text-decoration: none;
+    color: white;
+}

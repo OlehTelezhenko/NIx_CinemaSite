@@ -1,0 +1,368 @@
+<html lang="en">
+<head>
+    <title>Nix_CimenaSite</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleFilmEdit.css">
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-expand-lg bg-black">
+    <div class="container">
+      <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" class="bi bi-film" viewBox="0 0 16 16">
+        <path d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm4 0v6h8V1H4zm8 8H4v6h8V9zM1 1v2h2V1H1zm2 3H1v2h2V4zM1 7v2h2V7H1zm2 3H1v2h2v-2zm-2 3v2h2v-2H1zM15 1h-2v2h2V1zm-2 3v2h2V4h-2zm2 3h-2v2h2V7zm-2 3v2h2v-2h-2zm2 3h-2v2h2v-2z"/>
+      </svg></a>
+      <div class="row-cols-4"> 
+        <a class="col" href="#">Новости</a>
+        <a class="col" href="#">Кинотеатры</a>
+        <a class="col" href="#">Онлайн</a>
+        <a class="col" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+          <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+        </svg></i></a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main class="main">
+<div class="container">
+  <div class="forms" style="padding-top: 40px;">
+    <label for="titleFilm" class="form-label">Название фильма</label>
+    <input type="text" class="form-control" id="titleFilm">
+  </div>
+  <div class="forms">
+    <label for="countryFilm" class="form-label">Страна</label>
+    <input class="form-control" list="countryList" id="countryFilm">
+    <datalist id="countryList">
+    <option value="Абхазия"></option>
+    <option value="Австралия"></option>
+    <option value="Австрия"></option>
+    <option value="Азербайджан"></option>
+    <option value="Албания"></option>
+    <option value="Алжир"></option>
+    <option value="Ангола"></option>
+    <option value="Андорра"></option>
+    <option value="Антигуа"></option>
+    <option value="Аргентина"></option>
+    <option value="Армения"></option>
+    <option value="Афганистан"></option>
+    <option value="Багамские"></option>
+    <option value="Бангладеш"></option>
+    <option value="Барбадос"></option>
+    <option value="Бахрейн"></option>
+    <option value="Белиз"></option>
+    <option value="Бельмопан"></option>
+    <option value="Белоруссия"></option>
+    <option value="Бельгия"></option>
+    <option value="Бенин"></option>
+    <option value="Болгария"></option>
+    <option value="Боливия"></option>
+    <option value="Босния и Герцеговина"></option>
+    <option value="Ботсвана"></option>
+    <option value="Бразилия"></option>
+    <option value="Бруней"></option>
+    <option value="Буркина-Фасо"></option>
+    <option value="Бурунди"></option>
+    <option value="Бутан"></option>
+    <option value="Вануату"></option>
+    <option value="Ватикан"></option>
+    <option value="Великобритания"></option>
+    <option value="Венгрия Будапешт"></option>
+    <option value="Венесуэла"></option>
+    <option value="Восточный Тимор"></option>
+    <option value="Вьетнам"></option>
+    <option value="Габон"></option>
+    <option value="Гаити"></option>
+    <option value="Гайана"></option>
+    <option value="Гамбия"></option>
+    <option value="Гана"></option>
+    <option value="Гватемала"></option>
+    <option value="Гвинея"></option>
+    <option value="Гвинея-Бисау"></option>
+    <option value="Германия"></option>
+    <option value="Гондурас"></option>
+    <option value="Государство Палестина"></option>
+    <option value="Гренада"></option>
+    <option value="Греция"></option>
+    <option value="Грузия"></option>
+    <option value="Дания"></option>
+    <option value="Джибути"></option>
+    <option value="Доминика"></option>
+    <option value="Доминиканская Республика"></option>
+    <option value="ДР Конго"></option>
+    <option value="Египет"></option>
+    <option value="Замбия"></option>
+    <option value="Зимбабве"></option>
+    <option value="Израиль"></option>
+    <option value="Индия"></option>
+    <option value="Индонезия"></option>
+    <option value="Иордания"></option>
+    <option value="Ирак"></option>
+    <option value="Иран"></option>
+    <option value="Ирландия"></option>
+    <option value="Исландия"></option>
+    <option value="Испания"></option>
+    <option value="Италия"></option>
+    <option value="Йемен"></option>
+    <option value="Кабо-Верде"></option>
+    <option value="Казахстан"></option>
+    <option value="Камбоджа"></option>
+    <option value="Камерун"></option>
+    <option value="Канада"></option>
+    <option value="Катар"></option>
+    <option value="Кения"></option>
+    <option value="Кипр"></option>
+    <option value="Киргизия"></option>
+    <option value="Кирибати"></option>
+    <option value="Китай"></option>
+    <option value="КНДР"></option>
+    <option value="Колумбия"></option>
+    <option value="Коморские Острова"></option>
+    <option value="Коста-Рика"></option>
+    <option value="Кот-д'Ивуар"></option>
+    <option value="Куба"></option>
+    <option value="Кувейт"></option>
+    <option value="Лаос"></option>
+    <option value="Латвия"></option>
+    <option value="Лесото"></option>
+    <option value="Либерия"></option>
+    <option value="Ливан"></option>
+    <option value="Ливия"></option>
+    <option value="Литва"></option>
+    <option value="Лихтенштейн"></option>
+    <option value="Люксембург"></option>
+    <option value="Маврикий"></option>
+    <option value="Мавритания"></option>
+    <option value="Мадагаскар"></option>
+    <option value="Малави"></option>
+    <option value="Малайзия"></option>
+    <option value="Мали"></option>
+    <option value="Мальдивские Острова"></option>
+    <option value="Мальта"></option>
+    <option value="Марокко"></option>
+    <option value="Маршалловы"></option>
+    <option value="Острова"></option>
+    <option value="Мексика"></option>
+    <option value="Мозамбик"></option>
+    <option value="Молдавия"></option>
+    <option value="Монако"></option>
+    <option value="Монголия"></option>
+    <option value="Мьянма"></option>
+    <option value="Намибия"></option>
+    <option value="Науру"></option>
+    <option value="Непал"></option>
+    <option value="Нигер"></option>
+    <option value="Нигерия"></option>
+    <option value="Нидерланды"></option>
+    <option value="Никарагуа"></option>
+    <option value="Новая"></option>
+    <option value="Зеландия"></option>
+    <option value="Норвегия"></option>
+    <option value="ОАЭ"></option>
+    <option value="Оман"></option>
+    <option value="Пакистан"></option>
+    <option value="Палау"></option>
+    <option value="Панама"></option>
+    <option value="Папуа-Новая Гвинея"></option>
+    <option value="Парагвай"></option>
+    <option value="Перу"></option>
+    <option value="Польша"></option>
+    <option value="Португалия"></option>
+    <option value="Республика Конго"></option>
+    <option value="Республика Корея"></option>
+    <option value="Россия"></option>
+    <option value="Руанда"></option>
+    <option value="Румыния"></option>
+    <option value="Сальвадор"></option>
+    <option value="Самоа"></option>
+    <option value="Сан-Марино"></option>
+    <option value="Сан-Томе и Принсипи"></option>
+    <option value="Саудовская Аравия"></option>
+    <option value="Северная Македония"></option>
+    <option value="Сейшельские"></option>
+    <option value="Сенегал"></option>
+    <option value="Сент-Винсент и Гренадины"></option>
+    <option value="Сент-Китс и Невис"></option>
+    <option value="Сент-Люсия"></option>
+    <option value="Сербия"></option>
+    <option value="Сингапур"></option>
+    <option value="Сирия"></option>
+    <option value="Словакия"></option>
+    <option value="Словения"></option>
+    <option value="Соломоновы Острова"></option>
+    <option value="Сомали"></option>
+    <option value="Судан"></option>
+    <option value="Суринам"></option>
+    <option value="США"></option>
+    <option value="Сьерра-Леоне"></option>
+    <option value="Таджикистан"></option>
+    <option value="Таиланд"></option>
+    <option value="Танзания"></option>
+    <option value="Того"></option>
+    <option value="Тонга"></option>
+    <option value="Тринидад и Тобаго"></option>
+    <option value="Тувалу"></option>
+    <option value="Тунис"></option>
+    <option value="Туркмения"></option>
+    <option value="Турция"></option>
+    <option value="Уганда"></option>
+    <option value="Узбекистан"></option>
+    <option value="Украина"></option>
+    <option value="Уругвай"></option>
+    <option value="Федеративные Штаты Микронезии"></option>
+    <option value="Фиджи"></option>
+    <option value="Филиппины"></option>
+    <option value="Финляндия"></option>
+    <option value="Франция"></option>
+    <option value="Хорватия"></option>
+    <option value="ЦАР"></option>
+    <option value="Чад"></option>
+    <option value="Черногория"></option>
+    <option value="Чехия"></option>
+    <option value="Чили"></option>
+    <option value="Швейцария"></option>
+    <option value="Швеция"></option>
+    <option value="Шри-Ланка"></option>
+    <option value="Эквадор"></option>
+    <option value="Экваториальная Гвинея"></option>
+    <option value="Эритрея"></option>
+    <option value="Эсватини"></option>
+    <option value="Эстония"></option>
+    <option value="Эфиопия"></option>
+    <option value="ЮАР"></option>
+    <option value="Южная Осетия"></option>
+    <option value="Южный Судан"></option>
+    <option value="Ямайка"></option>
+    <option value="Япония"></option>
+    
+    </datalist>
+  </div>
+  <div class="forms">
+    <label for="filmGenre" class="form-label">Жанр</label>
+    <input type="text" class="form-control" id="filmGenre">
+  </div>
+  <div class="forms">
+    <label for="filmActor" class="form-label">Актеры</label>
+    <input type="text" class="form-control" id="filmActor">
+  </div>
+  <div class="forms">
+    <label for="filmDirector" class="form-label">Режисер</label>
+    <input type="text" class="form-control" id="filmDirector">
+  </div>
+  <div class="forms">
+    <label for="filmDuration" class="form-label">Продолжительность фильма</label>
+    <input type="text" class="form-control" id="filmDuration" placeholder="В минутах">
+  </div>
+  <div class="forms">
+    <label for="descriptionFilm">Описание фильма</label>
+    <textarea class="form-control" id="descriptionFilm" rows="3"></textarea>
+  </div>
+  <div class="forms">
+    <label for="statusFilm">Статус фильма</label>
+    <select class="form-control" id="statusFilm">
+      <option>Скоро выйдет</option>
+      <option>Премьера</option>
+      <option>Премьера и онлайн</option>
+      <option>Онлайн</option>
+    </select>
+  </div>
+  <div class="row forms">
+    <span>Дата премьеры</span>
+    <div class="col-3">
+      <select class="form-select" aria-label="Default select example">
+        <option selected>День</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="28">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+
+        
+      </select>  
+    </div>
+    <div class="col-3">
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Месяц</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>    
+    </div>
+    <div class="col-3">
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Год</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+      </select>   
+    </div>
+  </div>
+  <div class="forms">
+    <label for="filmPoster" class="form-label">Ссылка на постер</label>
+    <input type="text" class="form-control" id="filmPoster">
+  </div>
+  <div class="forms">
+    <label for="filmTrailer" class="form-label">Ссылка на трейлер</label>
+    <input type="text" class="form-control" id="filmTrailer">
+  </div>
+  <div class="row" style="margin-top: 40px;">
+    <div class="col text-center">
+      <button type="button" class="btn btn-primary btn-lg">Назад</button>
+    </div>
+    <div class="col text-center">
+      <button type="button" class="btn btn-primary btn-lg">Сохранить</button>
+    </div>
+  </div>
+</main>
+  
+<footer class="navbar-expand bg-black">
+  <ul class="nav justify-content-center" >
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Контакты</a></li>
+    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Прочее</a></li>
+  </ul>
+  <p class="text-center text-muted">&copy; 2022 With bootstrap & божьей помощи</p>
+</footer>
+
+<script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
