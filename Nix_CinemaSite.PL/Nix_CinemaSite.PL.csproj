@@ -5,12 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="jQuery.Validation" Version="1.19.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.14" />
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Views\Actor\" />
+    <Folder Include="Views\Film\" />
+    <Folder Include="Views\Home\" />
     <Folder Include="wwwroot\js\" />
-    <Folder Include="Views\" />
     <Folder Include="Controllers\" />
   </ItemGroup>
 
