@@ -22,7 +22,11 @@
     padding-left: 5%;
     padding-right: 5%;
 }
-.forms
+
+form{
+    margin-bottom: 0;
+}
+.form-group
 {
     padding: 0px;
     margin-bottom: 30px;

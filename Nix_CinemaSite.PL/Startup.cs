@@ -29,5 +29,6 @@ namespace Nix_CinemaSite.PL
             }
 
             app.UseRouting();
+        }
     }
 }

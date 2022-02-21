@@ -4,23 +4,13 @@
     background-color: #1F1F1F ;
 }
 
-.main .embed-responsive
-{
-    background-image: url(/img/PreView.png);
-}
 .main .container
 {
     color: white;
     background-color: #353535;
-    
 }
 
-.container .container
-{ 
-    padding-bottom: 40px;
-    padding-left: 5%;
-    padding-right: 5%;
-}
+
 .text-body
 {
     color: white;
@@ -29,18 +19,13 @@
 .carousel
 {
     background-color: #1F1F1F ;
-    padding-left: 1%;
-    padding-right: 1%;
 }
 
 
 .asd{
-    padding: 10px;;
     background-image: url(https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/655d9ab4-a2ae-46fb-9857-3a06ceda81d5/600x900);
     background-repeat: no-repeat;
     background-size:cover;
-    margin-left: 1%;
-    margin-right: 1;
 }
 .asd:hover
 {
