@@ -1,0 +1,33 @@
+﻿@using lesson22._2._22.Models
+@model IEnumerable<Lesson>
+
+}
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div class="container">
+        <table>
+            <tr>
+            <th>Name</th>
+            <th>Create time</th>
+            </tr>
+            @foreach (var leson in Model)
+            {
+                <tr>
+                    <td>
+                        @leson.Name
+                    </td>
+                    <td>
+                        @leson.During.ToShortTimeString()
+                    </td>
+                </tr>
+            }
+        </table>
+        <a class="btn-link" asp-area="" ></a>
+
+    </div>
+</div>
